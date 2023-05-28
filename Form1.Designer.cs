@@ -362,7 +362,7 @@ namespace OSKBurmese
 			this.btnA14.Name = "btnA14";
 			this.btnA14.Size = new System.Drawing.Size(48, 48);
 			this.btnA14.TabIndex = 53;
-			this.btnA14.Text = "့";
+			this.btnA14.Text = "်";
 			this.btnA14.UseVisualStyleBackColor = false;
 			this.btnA14.Click += new System.EventHandler(this.BtnAll_Click);
 			// 
@@ -688,7 +688,7 @@ namespace OSKBurmese
 			this.btnB14.Name = "btnB14";
 			this.btnB14.Size = new System.Drawing.Size(48, 48);
 			this.btnB14.TabIndex = 54;
-			this.btnB14.Text = "း";
+			this.btnB14.Text = "ံ";
 			this.btnB14.UseVisualStyleBackColor = false;
 			this.btnB14.Click += new System.EventHandler(this.BtnAll_Click);
 			// 
@@ -1014,7 +1014,7 @@ namespace OSKBurmese
 			this.btnC14.Name = "btnC14";
 			this.btnC14.Size = new System.Drawing.Size(48, 48);
 			this.btnC14.TabIndex = 55;
-			this.btnC14.Text = "်";
+			this.btnC14.Text = "့";
 			this.btnC14.UseVisualStyleBackColor = false;
 			this.btnC14.Click += new System.EventHandler(this.BtnAll_Click);
 			// 
@@ -1340,7 +1340,7 @@ namespace OSKBurmese
 			this.btnD14.Name = "btnD14";
 			this.btnD14.Size = new System.Drawing.Size(48, 48);
 			this.btnD14.TabIndex = 56;
-			this.btnD14.Text = "ံ";
+			this.btnD14.Text = "း";
 			this.btnD14.UseVisualStyleBackColor = false;
 			this.btnD14.Click += new System.EventHandler(this.BtnAll_Click);
 			// 
@@ -1562,7 +1562,7 @@ namespace OSKBurmese
 			this.label1.ForeColor = System.Drawing.Color.MediumTurquoise;
 			this.label1.Location = new System.Drawing.Point(24, 174);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(83, 54);
+			this.label1.Size = new System.Drawing.Size(68, 45);
 			this.label1.TabIndex = 111;
 			this.label1.Text = "Burmese\r\nSecondary\r\nKeyboard";
 			// 
@@ -1572,13 +1572,13 @@ namespace OSKBurmese
 			this.label2.ForeColor = System.Drawing.Color.White;
 			this.label2.Location = new System.Drawing.Point(850, 0);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(132, 16);
+			this.label2.Size = new System.Drawing.Size(101, 14);
 			this.label2.TabIndex = 112;
 			this.label2.Text = "IanRG@live.com.au";
 			// 
 			// Form1
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.DimGray;
 			this.ClientSize = new System.Drawing.Size(1080, 240);

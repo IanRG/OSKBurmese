@@ -52,9 +52,9 @@ namespace OSKBurmese
 			if (chkBoxShift.Checked && chkBoxLock.Checked)
 				chkBoxShift.Checked = false;
 			if (chkBoxLayout.Checked)
-				chkBoxLayout.BackColor = System.Drawing.ColorTranslator.FromHtml("#0076D7");
+				chkBoxLayout.BackColor = btnD12.BackColor = btnC13.BackColor = btnD13.BackColor = btnA14.BackColor = btnB14.BackColor = btnC14.BackColor = btnD14.BackColor = btnA15.BackColor = btnB15.BackColor = btnC15.BackColor = btnD15.BackColor = btnA16.BackColor = btnB16.BackColor = btnC16.BackColor = btnD16.BackColor = btnA17.BackColor = btnB17.BackColor = btnC17.BackColor = btnD17.BackColor = System.Drawing.ColorTranslator.FromHtml("#0076D7");
 			else
-				chkBoxLayout.BackColor = System.Drawing.ColorTranslator.FromHtml("#333333");
+				chkBoxLayout.BackColor = btnD12.BackColor = btnC13.BackColor = btnD13.BackColor = btnA14.BackColor = btnB14.BackColor = btnC14.BackColor = btnD14.BackColor = btnA15.BackColor = btnB15.BackColor = btnC15.BackColor = btnD15.BackColor = btnA16.BackColor = btnB16.BackColor = btnC16.BackColor = btnD16.BackColor = btnA17.BackColor = btnB17.BackColor = btnC17.BackColor = btnD17.BackColor = System.Drawing.ColorTranslator.FromHtml("#333333");
 			if (chkBoxLock.Checked)
 				chkBoxLock.BackColor = System.Drawing.ColorTranslator.FromHtml("#0076D7");
 			else
@@ -114,38 +114,38 @@ namespace OSKBurmese
 					btnA12.Text = "_";
 					btnB12.Text = "ဪ";
 					btnC12.Text = "\"";
-					btnD12.Text = "";
+					btnD12.Text = "ʃ";
 					btnA13.Text = "+";
 					btnB13.Text = "ၑ";
-					btnC13.Text = "";
-					btnD13.Text = "";
-					btnA14.Text = "့";
-					btnB14.Text = "း";
-					btnC14.Text = "်";
-					btnD14.Text = "ံ";
-					btnA15.Text = "၇";
-					btnB15.Text = "၄";
-					btnC15.Text = "၁";
-					btnD15.Text = "၊";
-					btnA16.Text = "၈";
-					btnB16.Text = "၅";
-					btnC16.Text = "၂";
-					btnD16.Text = "၀";
-					btnA17.Text = "၉";
-					btnB17.Text = "၆";
-					btnC17.Text = "၃";
-					btnD17.Text = "။";
+					btnC13.Text = "ʒ";
+					btnD13.Text = "ɾ";
+					btnA14.Text = "ɦ";
+					btnB14.Text = "β";
+					btnC14.Text = "ʈ";
+					btnD14.Text = "ɖ";
+					btnA15.Text = "ɪ";
+					btnB15.Text = "ɛ";
+					btnC15.Text = "æ";
+					btnD15.Text = "ʰ";
+					btnA16.Text = "ʊ";
+					btnB16.Text = "ɔ";
+					btnC16.Text = "ʲ";
+					btnD16.Text = "◌̊";
+					btnA17.Text = "ˑ";
+					btnB17.Text = "ː";
+					btnC17.Text = "ʷ";
+					btnD17.Text = "◌̥";
 					ButtonSizeNormal();
 					btnC01.Visible = false;
 					btnD01.Visible = false;
 					btnA07.Visible = true;
-					btnD12.Visible = false;
-					btnC13.Visible = false;
-					btnD13.Visible = false;
-					btnA14.Visible = false;
-					btnB14.Visible = false;
-					btnC14.Visible = false;
-					btnD14.Visible = false;
+					btnD12.Visible = true;
+					btnC13.Visible = true;
+					btnD13.Visible = true;
+					btnA14.Visible = true;
+					btnB14.Visible = true;
+					btnC14.Visible = true;
+					btnD14.Visible = true;
 				}
 				else
 				{
@@ -196,38 +196,38 @@ namespace OSKBurmese
 					btnA12.Text = "-";
 					btnB12.Text = "ဩ";
 					btnC12.Text = "'";
-					btnD12.Text = "";
+					btnD12.Text = "ɕ";
 					btnA13.Text = "=";
 					btnB13.Text = "၏";
-					btnC13.Text = "";
-					btnD13.Text = "";
-					btnA14.Text = "့";
-					btnB14.Text = "း";
-					btnC14.Text = "်";
-					btnD14.Text = "ံ";
-					btnA15.Text = "၇";
-					btnB15.Text = "၄";
-					btnC15.Text = "၁";
-					btnD15.Text = "၊";
-					btnA16.Text = "၈";
-					btnB16.Text = "၅";
-					btnC16.Text = "၂";
-					btnD16.Text = "၀";
-					btnA17.Text = "၉";
-					btnB17.Text = "၆";
-					btnC17.Text = "၃";
-					btnD17.Text = "။";
+					btnC13.Text = "ʨ";
+					btnD13.Text = "ʥ";
+					btnA14.Text = "ŋ";
+					btnB14.Text = "ɲ";
+					btnC14.Text = "θ";
+					btnD14.Text = "ð";
+					btnA15.Text = "◌̃"; // nasal
+					btnB15.Text = "ɴ";
+					btnC15.Text = "ʔ";
+					btnD15.Text = "˧";
+					btnA16.Text = "˥";
+					btnB16.Text = "˦";
+					btnC16.Text = "˨";
+					btnD16.Text = "˩";
+					btnA17.Text = "◌̀"; // high
+					btnB17.Text = "◌́"; // creaky
+					btnC17.Text = "◌̆"; // schwa
+					btnD17.Text = "ə";
 					ButtonSizeNormal();
 					btnC01.Visible = false;
 					btnD01.Visible = false;
 					btnA07.Visible = true;
-					btnD12.Visible = false;
-					btnC13.Visible = false;
-					btnD13.Visible = false;
-					btnA14.Visible = false;
-					btnB14.Visible = false;
-					btnC14.Visible = false;
-					btnD14.Visible = false;
+					btnD12.Visible = true;
+					btnC13.Visible = true;
+					btnD13.Visible = true;
+					btnA14.Visible = true;
+					btnB14.Visible = true;
+					btnC14.Visible = true;
+					btnD14.Visible = true;
 				}
 			}
 			else
@@ -368,10 +368,10 @@ namespace OSKBurmese
 					btnB13.Text = "◌ေါ";
 					btnC13.Text = "◌ို";
 					btnD13.Text = "";
-					btnA14.Text = "့";
-					btnB14.Text = "း";
-					btnC14.Text = "်";
-					btnD14.Text = "ံ";
+					btnC14.Text = "့";
+					btnD14.Text = "း";
+					btnA14.Text = "်";
+					btnB14.Text = "ံ";
 					btnA15.Text = "၁";
 					btnB15.Text = "၄";
 					btnC15.Text = "၇";
@@ -608,6 +608,11 @@ namespace OSKBurmese
 				ReleaseCapture();
 				SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
 			}
+		}
+
+		private void toolTip1_Popup(object sender, PopupEventArgs e)
+		{
+
 		}
 	}
 }
